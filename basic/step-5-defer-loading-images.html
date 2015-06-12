@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hello CRP interested girls & guys</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header__logo">
+        <a href="#">
+            <img data-aload="images/dummy-logo.jpg"
+                 alt="Dummy Logo"/>
+        </a>
+    </div>
+    <nav class="header__navbar">
+        <a href="#">Homepage</a>
+        |
+        <a href="#">News</a>
+        |
+        <a href="#">Imprint</a>
+    </nav>
+    <div class="clearfix"></div>
+</header>
+
+<main>
+    <p>
+        Hello
+        girls & guys!
+        <span>You are awsome!</span>
+    </p>
+    <div>
+        <img data-aload="images/awesome-photo.jpg" class="dummyImage__right">
+    </div>
+</main>
+<script type="text/javascript">
+    function aload(t){"use strict";t=t||window.document.querySelectorAll("[data-aload]"),void 0===t.length&&(t=[t]);var a,e=0,r=t.length;for(e;r>e;e+=1)a=t[e],a["LINK"!==a.tagName?"src":"href"]=a.getAttribute("data-aload"),a.removeAttribute("data-aload");return t}
+    window.onload = function () {aload();};
+</script>
+<script src="js/combined.min.js" defer></script>
+</body>
+</html>

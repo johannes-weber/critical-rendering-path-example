@@ -1,0 +1,38 @@
+header {
+    display: block;
+    background: #00bcd4;
+}
+.header__logo {
+    display: block;
+    float: left;
+}
+.header__navbar {
+    display: block;
+    float: right;
+    margin: 1.5em 2em 0 0;
+    color: white;
+}
+
+.header__navbar a {
+    color: inherit;
+}
+
+.clearfix {
+    clear: both;
+}
+
+p {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+p span {
+    display: none;
+}
+
+.dummyImage__right {
+    float: right;
+}
